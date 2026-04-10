@@ -13,7 +13,7 @@ namespace FFM.Plugin.Multiplayer;
 /// <summary>
 /// Standalone plugin hosting multiplayer bridge and plugin synchronization runtime.
 /// </summary>
-public sealed class Main : FFMPluginBase
+public sealed class Main : GregPluginBase
 {
     private MultiplayerBridge _multiplayerBridge;
     private PluginSyncService _pluginSyncService;
